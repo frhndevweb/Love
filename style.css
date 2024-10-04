@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#centerText {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    z-index: 10;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+#pinkboard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
